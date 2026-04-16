@@ -54,24 +54,27 @@ article {
 
 .about {
     position: absolute;
-    top: 60px;
+    top: 40px;
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: rgba(76, 78, 216, 0.6);
     color: #fff;
 }
 
 .hero article {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     width: 100%;
     margin: 0;
     padding: 8px;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: rgba(76, 78, 216, 0.6);
     color: #fff;
+}
+
+.hero article h2,
+.hero article p {
+    margin: 5px 0;
 }
 
 .hero article img {
@@ -242,4 +245,121 @@ footer {
 
 .support figure {
     margin: 0;
+}
+
+
+.hero-title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(76, 78, 216, 0.6);
+    padding: 8px;
+}
+
+.hero-subtext {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    background-color: rgba(76, 78, 216, 0.6);
+    padding: 8px;
+    font-size: medium;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: var(--accent2-color);
+}
+
+.newsletter input,
+.newsletter button {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+.cta {
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+.cta h2 {
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+}
+
+
+.grid-item img {
+    width: 100%;
+}
+
+.trips-cta {
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 20px;
+}
+
+.trips-cta h2,
+.trips-cta p {
+    color: white;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.trip-option {
+    text-align: center;
+    padding: 10px;
+    font-family: var(--body-font);
+}
+
+.trip-option img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px; 
+}
+
+.trips-table {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trips-table th,
+.trips-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
 }
